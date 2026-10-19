@@ -1,0 +1,513 @@
+[
+  {
+    "id": "jade-size",
+    "turns": [
+      {
+        "message": "清圆 J01 平安扣的尺寸和重量是多少？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "28 mm",
+          "8.6 g"
+        ],
+        "sources": [
+          "product-j01"
+        ],
+        "product": "jade-j01"
+      }
+    ]
+  },
+  {
+    "id": "jade-accessory",
+    "turns": [
+      {
+        "message": "J01 配什么挂绳和包装？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "挂绳",
+          "礼盒"
+        ],
+        "sources": [
+          "product-j01"
+        ],
+        "product": "jade-j01"
+      }
+    ]
+  },
+  {
+    "id": "jade-price",
+    "turns": [
+      {
+        "message": "清圆 J01 价格多少钱？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "680 元"
+        ],
+        "sources": [
+          "product-j01"
+        ],
+        "product": "jade-j01"
+      }
+    ]
+  },
+  {
+    "id": "bracelet-size",
+    "turns": [
+      {
+        "message": "清和 B02 手镯圈口多少？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "56 mm",
+          "12 mm"
+        ],
+        "sources": [
+          "product-b02"
+        ],
+        "product": "jade-b02"
+      }
+    ]
+  },
+  {
+    "id": "bracelet-weight",
+    "turns": [
+      {
+        "message": "B02 手镯重量是多少？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "48.2 g"
+        ],
+        "sources": [
+          "product-b02"
+        ],
+        "product": "jade-b02"
+      }
+    ]
+  },
+  {
+    "id": "bracelet-photo",
+    "turns": [
+      {
+        "message": "B02 手镯有棉吗，档案颜色是什么？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "浅绿",
+          "可见棉"
+        ],
+        "sources": [
+          "product-b02"
+        ],
+        "product": "jade-b02"
+      }
+    ]
+  },
+  {
+    "id": "plaque-size",
+    "turns": [
+      {
+        "message": "观山 P03 山水牌尺寸是多少？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "42 mm",
+          "26 mm",
+          "5.5 mm"
+        ],
+        "sources": [
+          "product-p03"
+        ],
+        "product": "jade-p03"
+      }
+    ]
+  },
+  {
+    "id": "plaque-craft",
+    "turns": [
+      {
+        "message": "P03 山水牌采用什么工艺？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "浅浮雕"
+        ],
+        "sources": [
+          "product-p03"
+        ],
+        "product": "jade-p03"
+      }
+    ]
+  },
+  {
+    "id": "returns-open",
+    "turns": [
+      {
+        "message": "平安扣拆封检查后还能退吗？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "未佩戴",
+          "7 天"
+        ],
+        "sources": [
+          "product-j01",
+          "faq-return"
+        ],
+        "product": "jade-j01"
+      }
+    ]
+  },
+  {
+    "id": "returns-fee",
+    "turns": [
+      {
+        "message": "不喜欢退货运费谁出？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "买家承担"
+        ],
+        "sources": [
+          "faq-fee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "returns-dispute",
+    "turns": [
+      {
+        "message": "描述不符退货运费谁承担？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "店铺承担"
+        ],
+        "sources": [
+          "faq-fee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "returns-steps",
+    "turns": [
+      {
+        "message": "翡翠怎么申请售后退货？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "订单详情",
+          "申请售后"
+        ],
+        "sources": [
+          "sop-return"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "custom-policy",
+    "turns": [
+      {
+        "message": "定制刻字后退货怎么处理？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "定制",
+          "人工"
+        ],
+        "sources": [
+          "faq-return",
+          "product-p03"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shipping-time",
+    "turns": [
+      {
+        "message": "翡翠现货多久发货？",
+        "intent": "shipping",
+        "status": "answered",
+        "facts": [
+          "48 小时"
+        ],
+        "sources": [
+          "faq-shipping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "invoice",
+    "turns": [
+      {
+        "message": "购买翡翠可以开电子发票吗？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "电子发票",
+          "税号"
+        ],
+        "sources": [
+          "faq-invoice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "care",
+    "turns": [
+      {
+        "message": "翡翠如何日常清洁？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "清水",
+          "柔软布料"
+        ],
+        "sources": [
+          "faq-care"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "certificate-query",
+    "turns": [
+      {
+        "message": "翡翠证书应该怎么查询？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "官方渠道",
+          "编号"
+        ],
+        "sources": [
+          "sop-viewing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "order-owned",
+    "turns": [
+      {
+        "message": "查询订单 ORD-1001 的物流",
+        "intent": "shipping",
+        "status": "answered",
+        "facts": [
+          "已发货"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "order-other",
+    "turns": [
+      {
+        "message": "查询订单 ORD-2002 的物流",
+        "intent": "shipping",
+        "status": "handoff",
+        "facts": [
+          "人工转接"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "human",
+    "turns": [
+      {
+        "message": "请帮我转人工客服",
+        "intent": "handoff",
+        "status": "handoff",
+        "facts": [
+          "工单"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "viewing",
+    "turns": [
+      {
+        "message": "我想看 B02 的自然光视频",
+        "intent": "handoff",
+        "status": "handoff",
+        "facts": [
+          "工单"
+        ],
+        "sources": [],
+        "product": "jade-b02"
+      }
+    ]
+  },
+  {
+    "id": "fit",
+    "turns": [
+      {
+        "message": "我手腕16厘米，这只手镯适合我吗？",
+        "intent": "handoff",
+        "status": "handoff",
+        "facts": [
+          "工单"
+        ],
+        "sources": [],
+        "product": "jade-b02"
+      }
+    ]
+  },
+  {
+    "id": "appraisal",
+    "turns": [
+      {
+        "message": "帮我判断 J01 证书真伪并估价",
+        "intent": "handoff",
+        "status": "handoff",
+        "facts": [
+          "工单"
+        ],
+        "sources": [],
+        "product": "jade-j01"
+      }
+    ]
+  },
+  {
+    "id": "complaint",
+    "turns": [
+      {
+        "message": "我要投诉，收到的翡翠和描述不一样",
+        "intent": "complaint",
+        "status": "handoff",
+        "facts": [
+          "工单"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "unknown",
+    "turns": [
+      {
+        "message": "帮我写一首七言绝句",
+        "intent": "unknown",
+        "status": "handoff",
+        "facts": [
+          "人工转接"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "clarify",
+    "turns": [
+      {
+        "message": "它厚度多大？",
+        "intent": "product",
+        "status": "clarify",
+        "facts": [
+          "哪款商品"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "greeting",
+    "turns": [
+      {
+        "message": "你好",
+        "intent": "smalltalk",
+        "status": "answered",
+        "facts": [
+          "您好"
+        ],
+        "sources": []
+      }
+    ]
+  },
+  {
+    "id": "context-return",
+    "turns": [
+      {
+        "message": "清圆 J01 尺寸和重量？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "28 mm",
+          "8.6 g"
+        ],
+        "sources": [
+          "product-j01"
+        ],
+        "product": "jade-j01"
+      },
+      {
+        "message": "那它拆封后还能退吗？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "未佩戴",
+          "7 天"
+        ],
+        "sources": [
+          "product-j01",
+          "faq-return"
+        ],
+        "product": "jade-j01"
+      },
+      {
+        "message": "那退货运费谁出？",
+        "intent": "returns",
+        "status": "answered",
+        "facts": [
+          "买家承担"
+        ],
+        "sources": [
+          "faq-fee"
+        ],
+        "product": "jade-j01"
+      }
+    ]
+  },
+  {
+    "id": "context-switch",
+    "turns": [
+      {
+        "message": "J01 平安扣多少钱？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "680 元"
+        ],
+        "sources": [
+          "product-j01"
+        ],
+        "product": "jade-j01"
+      },
+      {
+        "message": "换问清和 B02 手镯，圈口多少？",
+        "intent": "product",
+        "status": "answered",
+        "facts": [
+          "56 mm"
+        ],
+        "sources": [
+          "product-b02"
+        ],
+        "product": "jade-b02"
+      }
+    ]
+  }
+]

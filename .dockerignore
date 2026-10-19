@@ -1,0 +1,9 @@
+.git
+.venv
+.env
+runtime
+outputs
+output
+dist
+build
+__pycache__

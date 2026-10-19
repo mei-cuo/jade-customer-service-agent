@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ORD-1001",
+    "customer_id": "demo-customer",
+    "product_id": "jade-j01",
+    "status": "已发货",
+    "delivery": "该件平安扣已交承运商，具体到货时间以物流更新为准。"
+  },
+  {
+    "id": "ORD-2002",
+    "customer_id": "other-customer",
+    "product_id": "jade-b02",
+    "status": "待发货",
+    "delivery": "等待实物与配件复核。"
+  }
+]
